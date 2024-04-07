@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#wrap {
+    margin: 0 auto;
+    width: 1250px;
+    height: 1080px;
+}
+#header {
+    display: flex;
+}
+.logo {
+    width: 250px;
+    height: 100px;
+    background-color: #54D8DC;
+}
+.nav {
+    width: 1000px;
+    height: 100px;
+    background-color: #86DADC;
+}
+#main {
+   width: 100%;
+   height: 880px; 
+   display: flex;
+}
+.content01 {
+    width: 33.3333%;
+    height: 100%;
+    background-image: url(img/layout05-1.png);
+}
+.content02 {
+    width: 33.3333%;
+    height: 100%;
+    background-image: url(img/layout05-2.png);
+}
+.content03 {
+    width: 33.3333%;
+    height: 100%;
+    background-image: url(img/layout05-3.png);
+}
+#footer {
+    width: 100%;
+    height: 100px;
+    display: flex;;
+}
+.footer1 {
+    width: 250px;
+    height: 100%;
+    background-color: #FDE1E0;
+}
+.footer2 {
+    width: 1000px;
+    height: 100px;
+}
+.footer2-1 {
+    width: 100%;
+    height: 50%;
+    background-color: #FECECE;
+}
+.footer2-2 {
+    width: 100%;
+    height: 50%;
+    background-color: #FDB2B5;
+}
+@media (max-width:680px) {
+    #header {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+    }
+    .nav {
+        width: 100%;
+    }
+    #main {
+        display: block;
+        height: 680px;
+    }
+    .content01 {
+        width: 100%;
+        height: 225px;
+    }
+    .content02 {
+        width: 100%;
+        height: 230px;
+    }
+    .content03 {
+        width: 100%;
+        height: 225px;
+    }
+    #footer {
+        display: block;
+    }
+    .footer1 {
+        width: 100%;
+        height: 100px;
+    }
+    .footer2-1 {
+        width: 100%;
+        height: 50px;
+    }
+    .footer2-1 {
+        width: 100%;
+        height: 50px;
+    }
+}
+@media (max-width:450px) {
+    #header {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+    }
+    .nav {
+        width: 100%;
+    }
+    #main {
+        width: 450px;
+        height: 680px;
+        display: block;
+    }
+    .content01 {
+        width: 100%;
+        height: 50%;
+    }
+    .content02 {
+        width: 100%;
+        height: 50%;
+    }
+    .content03 {
+        display: none;
+    }
+    .footer1 {
+        width: 450px;
+        height: 200px;
+    }
+    .footer2 {
+        display: none;
+    }
+}
