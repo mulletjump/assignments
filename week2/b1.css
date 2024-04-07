@@ -1,0 +1,119 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    padding: 0;
+    width: 1250px;
+}
+
+#header {
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+    height: 100px;
+    background-color: #54D8DC;
+}
+
+#nav {
+    width: 80%;
+    height: 100px;
+    background-color: #86DADC;
+}
+
+#main {
+    display: flex;
+}
+
+#main>div {
+    width: 33.3333%;
+    height: 880px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.img01 {
+    background-image: url(../week2/img/layout05-1.png);
+}
+
+.img02 {
+    background-image: url(../week2/img/layout05-2.png);
+}
+
+.img03 {
+    background-image: url(../week2/img/layout05-3.png);
+}
+
+#footer {
+    display: flex;
+}
+
+.footer_logo {
+    width: 20%;
+    height: 100px;
+    background-color: #FDE1E0;
+}
+
+.copyright {
+    width: 80%;
+}
+
+.copyright01 {
+    height: 50px;
+    background-color: #FECECE;
+}
+
+.copyright02 {
+    height: 50px;
+    background-color: #FDB2B5;
+}
+
+@media (max-width: 680px) {
+    #header {
+        display: block;
+    }
+
+    .logo,
+    #nav {
+        width: 100%;
+    }
+
+    #main {
+        flex-wrap: wrap;
+    }
+
+    #main>div {
+        width: 100%;
+        height: 225px;
+    }
+
+    #footer {
+        display: block;
+    }
+
+    .footer_logo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    #main>div {
+        height: 350px;
+    }
+
+    .img03 {
+        display: none;
+    }
+
+    .footer_logo {
+        height: 200px;
+    }
+
+    .copyright {
+        display: none;
+    }
+}
