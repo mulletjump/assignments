@@ -69,6 +69,10 @@
     background-color: #FDB2B5;
 }
 @media (max-width:680px) {
+    #wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
     #header {
         display: block;
     }
@@ -78,6 +82,7 @@
     #main {
         display: block;
         height: 680px;
+        width: 680px;
     }
     .content01, .content02, .content03 {
         width: 100%;
@@ -85,23 +90,29 @@
     }
     #footer {
         display: block;
+        width: 680px;
     }
     .footer1 {
         width: 100%;
         height: 100px;
     }
     .footer2-1 {
-        width: 100%;
+        width: 680px;
         height: 50px;
     }
-    .footer2-1 {
-        width: 100%;
+    .footer2-2 {
+        width: 680px;
         height: 50px;
     }
 }
 @media (max-width:450px) {
+    #wrap {
+        width: 450px;
+        margin: 0 auto;
+    }
     #header {
         display: block;
+        width: 450px;
     }
     .logo {
         width: 100%;
